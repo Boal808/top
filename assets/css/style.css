@@ -327,6 +327,18 @@ img { max-width: 100%; }
 	padding: 0 0 10px 0;
 }
 
+.rhino img {
+  border: #9c0c0c 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.ulti img {
+  border: #fac800 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
 #trims {
   border-radius: 4px;
 
