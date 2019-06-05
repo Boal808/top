@@ -327,6 +327,10 @@ img { max-width: 100%; }
 	padding: 0 0 10px 0;
 }
 
+.roofLogo {
+  margin-top: 20px;
+}
+
 .rhino img {
   border: #9c0c0c 2px solid;
   border-radius: 5px;
