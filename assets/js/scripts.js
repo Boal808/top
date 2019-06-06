@@ -32,6 +32,13 @@ jQuery(document).ready(function() {
     /*
         Background slideshow
     */
+
+		$('#interior').backstretch([
+			"assets/img/backgrounds/kit.jpg",
+			"assets/img/backgrounds/internal.jpg"
+		],{fade:4000
+		});
+
     $('#home').backstretch([
 			"assets/img/backgrounds/modularRack.jpg",
 			"assets/img/backgrounds/plyline.jpg",
@@ -46,6 +53,7 @@ jQuery(document).ready(function() {
 			"assets/img/backgrounds/modularRack.jpg"
 		],{fade:4000
 		});
+
 
 		$('#racks').backstretch("assets/img/backgrounds/modularRack.jpg");
 

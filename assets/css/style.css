@@ -337,15 +337,43 @@ img { max-width: 100%; }
   margin-bottom: 30px;
 }
 
+.rhino img:hover{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
 .ulti img {
   border: #fac800 2px solid;
   border-radius: 5px;
   margin-bottom: 30px;
 }
 
-#trims {
-  border-radius: 4px;
+.ulti img:hover{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
 
+.vankit img {
+  border: #0046fa 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.vankit img:hover{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 
