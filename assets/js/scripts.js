@@ -1,4 +1,6 @@
-
+/*
+Scroll-link
+*/
 
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
@@ -12,8 +14,6 @@ function scroll_to(clicked_link, nav_height) {
 	}
 }
 
-
-
 jQuery(document).ready(function() {
 
 
@@ -24,10 +24,6 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		scroll_to($(this), $('nav').outerHeight());
 	});
-	// toggle "navbar-no-bg" class
-/*	$('.about-us-container').waypoint(function() {
-		$('nav').toggleClass('navbar-no-bg');
-	});*/
 
     /*
         Background slideshow
