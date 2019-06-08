@@ -193,7 +193,7 @@ img { max-width: 100%; }
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
 
 .navbar-brand {
-  height: 70px;
+  height: 80px;
 	width: 136px;
 	background: url(../img/rbvlogo.png) left center no-repeat;
 	border: 0;
