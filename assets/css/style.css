@@ -193,13 +193,15 @@ img { max-width: 100%; }
 .navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
 
 .navbar-brand {
-  height: 80px;
+  height: 70px;
 	width: 136px;
 	background: url(../img/rbvlogo.png) left center no-repeat;
 	border: 0;
   background-size: cover;
 	text-indent: -99999px;
 }
+
+.navbar-brand:hover {-o-transform: scale(1.25); -moz-transform: scale(1.25); -webkit-transform: scale(1.25); -ms-transform: scale(1.25); transform: scale(1.25);}
 
 /* collapsed nav icon */
 .fas.fa-bars {
@@ -218,13 +220,14 @@ img { max-width: 100%; }
   padding-bottom: 1px;
 }
 
+
 .dropdown-item {
-  color: #ffffff;
+  color: #9c0c0c;
 
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   background-color: #9c0c0c;
 }
 
@@ -275,7 +278,7 @@ img { max-width: 100%; }
 
 #topText {
     text-align: left;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
     padding: 5px;
     border-radius: 5px
 }
@@ -329,6 +332,28 @@ img { max-width: 100%; }
 
 .roofLogo {
   margin-top: 20px;
+}
+
+.rbv img {
+  border: #9c0c0c 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.rbv img:hover{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.rbvsec img {
+/*  display: block;*/
+  max-height: 200px;
+/*  margin-left: auto;
+  margin-right: auto;*/
 }
 
 .rhino img {

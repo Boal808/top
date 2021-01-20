@@ -29,6 +29,13 @@ jQuery(document).ready(function() {
         Background slideshow
     */
 
+		$('#accessories').backstretch([
+			"assets/img/accessories/vanGuardPipe.jpg",
+			"assets/img/accessories/vanGuardLoad.jpg",
+			"assets/img/accessories/rhinoPipe.jpg"
+		],{fade:4000
+		});
+
 		$('#interior').backstretch([
 			"assets/img/backgrounds/kit.jpg",
 			"assets/img/backgrounds/internal.jpg"
@@ -38,15 +45,28 @@ jQuery(document).ready(function() {
     $('#home').backstretch([
 			"assets/img/backgrounds/modularRack.jpg",
 			"assets/img/backgrounds/plyline.jpg",
-			"assets/img/backgrounds/racking.jpg",
+			"assets/img/backgrounds/shelvingbg.jpeg",
 			"assets/img/backgrounds/aluminiumRack.jpg"
 		],{fade:1500
+		});
+
+		$('#plylining').backstretch([
+			"assets/img/backgrounds/plyline.jpg",
+			"assets/img/backgrounds/plyline1.jpeg"
+		],{fade:4000
 		});
 
 		$('#roofracks').backstretch([
 			"assets/img/backgrounds/delta.jpg",
 			"assets/img/backgrounds/ultiBar.jpg",
 			"assets/img/backgrounds/modularRack.jpg"
+		],{fade:4000
+		});
+
+		$('#security').backstretch([
+			"assets/img/backgrounds/repLock.jpeg",
+			"assets/img/backgrounds/hooklock.jpeg",
+			"assets/img/backgrounds/deadlock.jpeg"
 		],{fade:4000
 		});
 
